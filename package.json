@@ -1,0 +1,31 @@
+{
+  "name": "@leothesen/change-case",
+  "version": "1.0.0",
+  "description": "Recursive functions for changing the case of nested objects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leothesen/change-case.git"
+  },
+  "keywords": [
+    "change",
+    "case",
+    "snake_case",
+    "camelCase"
+  ],
+  "author": "Leo Thesen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leothesen/change-case/issues"
+  },
+  "homepage": "https://github.com/leothesen/change-case#readme",
+  "dependencies": {
+    "change-case": "4.1.1"
+  },
+  "devDependencies": {
+    "jest": "^25.2.3"
+  }
+}

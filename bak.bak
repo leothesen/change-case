@@ -1,0 +1,8 @@
+array.map((arrayElement) => {
+        if (typeof arrayElement === 'object') {
+          const camelledArray = array.map((arrayObject) => camellify(arrayObject));
+          camelled[keyCamelCase] = camelledArray;
+        } else {
+          camelled[keyCamelCase].push(arrayElement);
+        }
+      });
