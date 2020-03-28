@@ -1,7 +1,9 @@
 const snake_case = {
   plain_field: 'text',
+  numeric_field: 42,
   object_field: {
-    plain_field: 'text'
+    plain_field: 'text',
+    numeric_field: 42
   },
   array_field: [
     'text'
@@ -19,14 +21,20 @@ const snake_case = {
     'text',
     {
       plain_field: 'text',
+      mixed_object_field: {
+        numeric_field: 42,
+        arrary_field: [42, 'fourty two', { fourty_two: 42 }]
+      }
     }
   ]
 }
 
 const camelCase = {
   plainField: 'text',
+  numericField: 42,
   objectField: {
-    plainField: 'text'
+    plainField: 'text',
+    numericField: 42
   },
   arrayField: [
     'text'
@@ -44,6 +52,10 @@ const camelCase = {
     'text',
     {
       plainField: 'text',
+      mixedObjectField: {
+        numericField: 42,
+        arraryField: [42, 'fourty two', { fourtyTwo: 42 }]
+      }
     }
   ]
 }

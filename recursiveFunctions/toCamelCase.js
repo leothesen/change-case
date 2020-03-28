@@ -6,7 +6,7 @@ function camellify(object) {
     const keyCamelCase = camelCase(key);
     if (Array.isArray(object[key])) {
       camelled[keyCamelCase] = object[key].map((arraryElement) => {
-        if (typeof arraryElement === 'string') return arraryElement;
+        if (typeof arraryElement !== 'object') return arraryElement;
         return camellify(arraryElement);
       })
     } else if (typeof object[key] === 'object') {

@@ -6,7 +6,7 @@ function snakify(object) {
     const keySnakeCase = snakeCase(key);
     if (Array.isArray(object[key])) {
       snaked[keySnakeCase] = object[key].map((arraryElement) => {
-        if (typeof arraryElement === 'string') return arraryElement;
+        if (typeof arraryElement !== 'object') return arraryElement;
         return snakify(arraryElement);
       })
     } else if (typeof object[key] === 'object') {
