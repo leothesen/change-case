@@ -1,7 +1,7 @@
 const toCamelCase = require('./cases/toCamelCase');
 const toSnakeCase = require('./cases/toSnakeCase');
 
-export {
+module.exports = {
   toCamelCase,
   toSnakeCase
 };
