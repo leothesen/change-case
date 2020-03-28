@@ -1,6 +1,6 @@
 {
   "name": "@leothesen/change-case",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Recursive functions for changing the case of nested objects.",
   "main": "index.js",
   "scripts": {
