@@ -11,6 +11,7 @@
     "url": "git+https://github.com/leothesen/change-case.git"
   },
   "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
   "keywords": [
