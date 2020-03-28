@@ -1,5 +1,5 @@
-const toCamelCase = require('./recursiveFunctions/toCamelCase');
-const toSnakeCase = require('./recursiveFunctions/toSnakeCase');
+const toCamelCase = require('./cases/toCamelCase');
+const toSnakeCase = require('./cases/toSnakeCase');
 
 export {
   toCamelCase,
