@@ -1,0 +1,15 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "no-underscore-dangle": ["off"],
+    "no-console": ["off"],
+    "no-warning-comments": [ "warn", { "terms": ["todo", "fixme"], "location": "start" } ],
+    "import/no-unresolved": [
+      "error",
+      {
+        "ignore": [ "src/" ]
+      }
+    ]
+  }
+}

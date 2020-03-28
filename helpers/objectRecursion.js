@@ -1,4 +1,4 @@
-function recursiveFunction (changeCaseFunction, object) {
+function recursiveFunction(changeCaseFunction, object) {
   const result = {};
   Object.keys(object).map((key) => {
     const keyCaseChanged = changeCaseFunction(key);
@@ -6,7 +6,7 @@ function recursiveFunction (changeCaseFunction, object) {
       result[keyCaseChanged] = object[key].map((arraryElement) => {
         if (typeof arraryElement !== 'object') return arraryElement;
         return recursiveFunction(changeCaseFunction, arraryElement);
-      })
+      });
     } else if (typeof object[key] === 'object') {
       result[keyCaseChanged] = recursiveFunction(changeCaseFunction, object[key]);
     } else {
