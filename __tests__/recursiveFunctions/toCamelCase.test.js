@@ -1,4 +1,4 @@
-const toCamelCase = require('../../recursiveFunctions/toCamelCase');
+const toCamelCase = require('../../cases/toCamelCase');
 const { snake_case, camelCase } = require('../constants/objects');
 
 test('toCamelCase',() => {
