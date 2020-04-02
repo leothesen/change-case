@@ -6,6 +6,7 @@ function recursiveFunction(changeCaseFunction, object) {
       result[keyCaseChanged] = null;
     } else if (Array.isArray(object[key])) {
       result[keyCaseChanged] = object[key].map((arraryElement) => {
+        if (arraryElement === null) return null;
         if (typeof arraryElement !== 'object') return arraryElement;
         return recursiveFunction(changeCaseFunction, arraryElement);
       });

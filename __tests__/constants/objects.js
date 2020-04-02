@@ -7,7 +7,8 @@ const snake_case = {
     numeric_field: 42
   },
   array_field: [
-    'text'
+    'text',
+    null
   ],
   mixed_object_field: {
     plain_field: 'text',
@@ -39,7 +40,8 @@ const camelCase = {
     numericField: 42
   },
   arrayField: [
-    'text'
+    'text',
+    null
   ],
   mixedObjectField: {
     plainField: 'text',
