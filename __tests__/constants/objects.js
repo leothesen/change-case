@@ -1,5 +1,6 @@
 const snake_case = {
   plain_field: 'text',
+  null_field: null,
   numeric_field: 42,
   object_field: {
     plain_field: 'text',
@@ -32,6 +33,7 @@ const snake_case = {
 const camelCase = {
   plainField: 'text',
   numericField: 42,
+  nullField: null,
   objectField: {
     plainField: 'text',
     numericField: 42
